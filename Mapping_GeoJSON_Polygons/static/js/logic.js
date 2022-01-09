@@ -40,4 +40,3 @@ d3.json(torontoHoods).then(function(data) {
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJSON(data).addTo(map);
 });
-
